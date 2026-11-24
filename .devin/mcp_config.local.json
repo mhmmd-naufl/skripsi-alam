@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "word": {
+      "command": "C:\\Users\\ADVAN\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "args": ["D:\\Naufal\\Skripsi\\repos\\Office-Word-MCP-Server\\word_mcp_server.py"],
+      "transport": "stdio"
+    },
+    "word-live": {
+      "command": "C:\\Users\\ADVAN\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts\\word-mcp-live.exe",
+      "transport": "stdio"
+    }
+  }
+}

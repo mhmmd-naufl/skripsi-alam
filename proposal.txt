@@ -1,0 +1,176 @@
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+Draft Proposal Tugas Akhir Disusun oleh: [Nama Mahasiswa] / [NIM] Program Studi Agroteknologi, [Nama Perguruan Tinggi] Dosen Pembimbing: [Nama Pembimbing 1] dan [Nama Pembimbing 2] [Tahun]
+Bab 1. Pendahuluan
+1.1 Latar Belakang
+Arugula (Eruca sativa Mill.) adalah sayuran daun dari famili Brassicaceae yang semakin dicari sebagai bahan salad, pizza, dan hidangan restoran modern. Harga jualnya per kilogram relatif tinggi dibanding sayuran daun lokal seperti sawi, dan permintaannya terutama datang dari kafe, restoran, dan hotel. Banyuwangi memiliki sektor pariwisata yang besar, sehingga ada peluang pasar bagi sayuran premium yang diproduksi di dekat konsumennya.
+Kecamatan Licin berada di kaki Pegunungan Ijen dan Raung dengan udara yang sejuk, curah hujan cukup tinggi, dan tanah vulkanik yang subur. Kondisi ini sesuai untuk sayuran daun yang menyukai iklim sejuk. Namun lahan di Licin banyak yang miring dan terbatas, sehingga budidaya dalam polybag di pekarangan atau lahan sempit menjadi pilihan yang realistis bagi petani kecil. Arugula berakar dangkal sehingga peka terhadap kekurangan maupun kelebihan air. Pengelolaan air karena itu sangat menentukan pertumbuhan dan hasilnya. Irigasi tetes dikenal hemat air karena air diberikan langsung ke zona perakaran. Pada sistem polybag, efektivitasnya sangat bergantung pada kemampuan media tanam menahan air. Kompos meningkatkan daya tahan air, sedangkan sekam bakar membuat media lebih porous dan cepat meloloskan air. Interval irigasi yang cocok untuk satu komposisi media belum tentu cocok untuk media lain.
+Kajian yang menggabungkan komposisi media tanam dan interval irigasi tetes pada arugula skala polybag masih terbatas, terutama untuk kondisi dataran tinggi seperti Licin. Penelitian ini dilakukan untuk menjawab kebutuhan tersebut. Hasilnya diharapkan menjadi dasar paket budidaya arugula polybag (resep media dan jadwal penyiraman) yang efisien air dan dapat dikembangkan menjadi usaha.
+Sebagai pendukung, penelitian ini memakai sensor kelembapan dan suhu media berbasis mikrokontroler untuk memantau kondisi media secara kontinu. Data sensor membantu menjelaskan mengapa suatu kombinasi perlakuan menghasilkan pertumbuhan yang berbeda. Sensor berfungsi sebagai alat ukur pendukung dan bukan variabel yang diuji.
+Page 1 of 8
+
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+1.2 Rumusan Masalah
+1. Bagaimana pengaruh komposisi media tanam terhadap pertumbuhan dan hasil arugula?
+2. Bagaimana pengaruh interval irigasi tetes terhadap pertumbuhan dan hasil arugula? 3. Apakah terdapat interaksi antara komposisi media tanam dan interval irigasi tetes
+terhadap pertumbuhan dan hasil arugula? 4. Kombinasi perlakuan mana yang menghasilkan pertumbuhan, hasil, dan efisiensi
+penggunaan air terbaik?
+1.3 Tujuan Penelitian
+1. Mengetahui pengaruh komposisi media tanam terhadap pertumbuhan dan hasil arugula.
+2. Mengetahui pengaruh interval irigasi tetes terhadap pertumbuhan dan hasil arugula. 3. Mengetahui ada tidaknya interaksi antara kedua faktor. 4. Menentukan kombinasi media dan interval yang paling baik dan efisien. 5. Mendokumentasikan dinamika kelembapan dan suhu media pada tiap kombinasi
+perlakuan melalui monitoring sensor sebagai data pendukung.
+1.4 Hipotesis
+1. Komposisi media tanam berpengaruh nyata terhadap pertumbuhan dan hasil arugula. 2. Interval irigasi tetes berpengaruh nyata terhadap pertumbuhan dan hasil arugula. 3. Terdapat interaksi nyata antara komposisi media tanam dan interval irigasi tetes.
+1.5 Manfaat Penelitian
+Ilmiah: menyediakan data respon arugula terhadap media tanam dan interval irigasi tetes di dataran tinggi. Praktis: memberi rekomendasi paket budidaya arugula polybag bagi petani dan pengelola pekarangan. Bisnis: menjadi dasar pengembangan usaha sayuran premium untuk kafe dan hotel di Banyuwangi. Teknologi: menunjukkan penggunaan monitoring sensor berbiaya rendah dalam penelitian budidaya skala kecil.
+1.6 Batasan Penelitian
+Hanya menggunakan satu varietas arugula dan satu lokasi. Volume air per penyiraman tetap, yang divariasikan hanya interval.
+Page 2 of 8
+
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+Percobaan dilakukan dalam polybag di bawah rain shelter, sehingga hasilnya tidak langsung berlaku untuk lahan terbuka. Monitoring sensor dilakukan pada polybag sampel dan bersifat pendukung. Analisis usaha hanya bersifat pendukung.
+Bab 2. Tinjauan Pustaka
+Catatan penulis: bab ini perlu diisi dari jurnal. Kata kunci pencarian: "arugula", "Eruca sativa", "drip irrigation interval", "growing media", "water use efficiency leafy vegetable", "soil moisture sensor capacitive". Targetkan minimal 10 sampai 15 referensi sebelum seminar proposal.
+2.1 Tanaman Arugula
+Berisi klasifikasi, morfologi, syarat tumbuh (suhu, kelembapan, pH), umur panen, dan nilai ekonomi arugula.
+2.2 Media Tanam
+Berisi fungsi media tanam, sifat fisik media (porositas, daya menahan air, aerasi), peran kompos, dan peran sekam bakar.
+2.3 Kebutuhan Air dan Irigasi Tetes
+Berisi kebutuhan air sayuran daun, prinsip irigasi tetes dan irigasi tetes gravitasi, debit emitter, serta efisiensi penggunaan air (WUE).
+2.4 Interval Irigasi dan Interaksinya dengan Media
+Berisi hasil penelitian tentang frekuensi atau interval irigasi pada sayuran daun, dan hubungan antara sifat media dengan kebutuhan penyiraman.
+2.5 Sensor Kelembapan Tanah untuk Pemantauan Budidaya
+Berisi prinsip sensor kapasitif, perbedaan dengan sensor resistif, kalibrasi dengan metode gravimetri, serta penggunaan mikrokontroler ESP32 dalam pemantauan pertanian.
+2.6 Analisis Kelayakan Usaha
+Berisi konsep R/C ratio dan Break Even Point (BEP).
+Page 3 of 8
+
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+
+2.7 Kerangka Pemikiran
+Media tanam menentukan kemampuan menahan air. Interval irigasi menentukan frekuensi pasokan air. Kombinasi keduanya menentukan ketersediaan air di zona perakaran arugula, yang berdampak pada pertumbuhan dan hasil. Monitoring sensor merekam kelembapan dan suhu media sebagai penjelas hubungan tersebut.
+
+Bab 3. Metode Penelitian
+3.1 Waktu dan Tempat
+Penelitian dilakukan di [lokasi spesifik], Kecamatan Licin, Kabupaten Banyuwangi, pada [bulan dan tahun], dengan total waktu kurang lebih 2 bulan: persiapan dan uji pendahuluan sekitar 1 bulan, tanam sampai panen sekitar 5 sampai 6 minggu. Jika dilaksanakan pada musim hujan, percobaan wajib berada di bawah rain shelter.
+3.2 Alat dan Bahan
+Bahan tanam dan media: benih arugula [varietas], polybag [ukuran], tanah, kompos (satu sumber dan satu batch), sekam bakar. Sistem irigasi: tandon air, selang tetes, emitter, filter, kran per jalur, konektor, rain shelter. Alat ukur: soil moisture meter manual, penggaris, timbangan digital, gelas ukur, oven atau alat pengering (untuk kalibrasi gravimetri). Perangkat monitoring: ESP32, sensor kelembapan tanah kapasitif (6 unit), sensor suhu DS18B20 (6 unit), modul SD card, modul RTC (jam waktu nyata), sumber daya (power bank atau adaptor), casing tahan air, kabel dan konektor.
+3.3 Rancangan Percobaan
+Percobaan menggunakan Rancangan Acak Lengkap (RAL) faktorial 2 x 3 dengan 3 ulangan. Jika lokasi tidak seragam (miring atau sebagian terkena naungan), digunakan Rancangan Acak Kelompok (RAK) dengan kelompok mengikuti gradien lokasi.
+
+Faktor A. Media tanam
+B. Interval irigasi tetes
+
+Level M1 M2 I1 I2
+
+Keterangan Tanah + kompos (1:1) Tanah + kompos + sekam bakar (1:1:1) Setiap hari 2 hari sekali
+
+Page 4 of 8
+
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+
+Faktor
+
+Level I3
+
+Keterangan 3 hari sekali
+
+Terdapat 6 kombinasi perlakuan (M1I1, M1I2, M1I3, M2I1, M2I2, M2I3) yang masing-masing diulang 3 kali, sehingga total 18 unit percobaan. Setiap unit terdiri dari 4 polybag, dua di antaranya dijadikan sampel pengamatan. Total sekitar 72 polybag. Jumlah polybag dan tanaman per polybag disesuaikan dengan arahan pembimbing.
+Volume air per penyiraman sama pada semua perlakuan. Besarnya ditentukan dari uji pendahuluan berdasarkan kapasitas lapang media atau kebutuhan air arugula, lalu dikonfirmasi kepada pembimbing.
+
+3.4 Pelaksanaan Penelitian
+1. Persiapan media. Kompos dan sekam bakar disiapkan, lalu dicampur sesuai perlakuan dan dimasukkan ke polybag.
+2. Pemasangan rain shelter dan jaringan irigasi. Dibuat minimal 3 jalur selang tetes, satu per interval, masing-masing dengan kran. Tandon diletakkan lebih tinggi dari polybag agar sistem gravitasi berjalan. Debit emitter diukur dahulu dengan menampung air selama waktu tertentu.
+3. Uji pendahuluan. Dilakukan uji kecil, terutama pada interval 3 hari, untuk memastikan bibit tidak mati karena media terlalu kering. Hasilnya dipakai untuk menetapkan volume air per penyiraman.
+4. Penanaman. Benih disemai atau ditanam langsung, lalu penempatan perlakuan diacak. 5. Pemeliharaan. Meliputi penyulaman, penyiangan, dan pengendalian hama. Perlu
+diwaspadai kutu loncat (flea beetle) dan busuk daun saat lembap. 6. Pemasangan dan pengoperasian sensor. Dijelaskan pada subbab 3.6. 7. Panen. Dilakukan sekitar 30 sampai 35 HST dengan kriteria yang seragam untuk
+semua unit.
+
+3.5 Parameter Pengamatan
+Pertumbuhan: tinggi tanaman dan jumlah daun pada 7, 14, dan 21 HST (opsional 28 HST) pada tanaman sampel.
+Hasil: bobot segar per tanaman dan bobot segar per unit percobaan.
+Efisiensi air: Water Use Efficiency (WUE) = bobot segar hasil dibagi total volume air yang diberikan.
+Pendukung (monitoring): kelembapan dan suhu media dari sensor serta pembacaan manual soil moisture meter sebagai pembanding.
+
+Page 5 of 8
+
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+Opsional: uji organoleptik sederhana (rasa pedas dan kerenyahan) pada panelis terbatas.
+3.6 Sistem Monitoring Sensor (Pendukung)
+Sistem monitoring dipakai sebagai alat bantu pengukuran dan tidak menjadi variabel yang diuji. Perangkat dan penempatan. Satu polybag sampel pada tiap kombinasi perlakuan (6 titik) dipasang sensor kelembapan kapasitif dan sensor suhu. Sensor ditempatkan pada kedalaman zona perakaran yang sama di semua titik. Pemantauan dilakukan pada satu ulangan yang sama selama penelitian, sedangkan ulangan lain dipantau manual. Pengendali dan penyimpanan data. Sensor dibaca oleh ESP32 pada selang waktu tetap (misalnya tiap 15 sampai 30 menit). Data disimpan ke SD card sebagai cadangan utama dan dikirim ke Google Sheets atau platform IoT (misalnya ThingSpeak) bila sinyal tersedia. Modul RTC memastikan stempel waktu tetap benar saat koneksi terputus. Kalibrasi. Sensor dikalibrasi terhadap metode gravimetri: sampel media pada beberapa tingkat kebasahan dibaca sensor, kemudian ditimbang basah, dikeringkan, dan ditimbang kering untuk memperoleh kadar air sebenarnya. Dari data ini dibuat persamaan kalibrasi pembacaan sensor ke kadar air media. Karena M1 dan M2 berbeda komposisi, kalibrasi dibuat terpisah untuk tiap media. Pembanding manual. Soil moisture meter dibaca pada jam yang sama setiap hari untuk memverifikasi sensor dan sebagai cadangan jika sensor gagal. Pengolahan dan visualisasi. Data dibersihkan dan divisualisasikan sebagai kurva kelembapan media sepanjang hari pada tiap kombinasi di Google Sheets atau Looker Studio. Pencatatan pengamatan agronomi (tinggi, jumlah daun, bobot, volume air) dilakukan lewat Google Form ke Google Sheets dengan kode unit seperti M1I2-U3 untuk mencegah salah ketik, dan WUE dihitung otomatis dengan rumus di spreadsheet. Mitigasi risiko. Sensor dan sambungan kabel diberi casing dan pelindung tahan air. Sumber daya disiapkan dengan power bank atau adaptor, dengan cadangan jika listrik tidak tersedia di lokasi. Jika sensor rusak atau data hilang, penelitian tetap dapat dianalisis karena data utama adalah pertumbuhan dan hasil tanaman.
+3.7 Analisis Data
+1. Data pertumbuhan dan hasil dianalisis dengan ANOVA dua faktor pada taraf 5%. Asumsi (kenormalan dan kehomogenan ragam) diperiksa terlebih dahulu.
+2. Jika berpengaruh nyata, dilanjutkan dengan uji BNT atau DMRT taraf 5%. Jika interaksi nyata, pembahasan difokuskan pada kombinasi perlakuan, bukan faktor tunggal.
+Page 6 of 8
+
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+
+3. Data sensor dianalisis secara deskriptif (grafik kelembapan dan suhu per kombinasi) untuk menjelaskan hasil. Data sensor tidak diuji ANOVA sebagai variabel utama.
+4. Analisis usaha sederhana: R/C ratio = total penerimaan / total biaya, dan BEP dihitung per kombinasi perlakuan. Biaya meliputi benih, media, polybag, tenaga kerja, air, dan penyusutan alat irigasi. Perangkat sensor tidak dimasukkan ke biaya usaha karena merupakan alat penelitian.
+Perangkat lunak yang dipakai: Microsoft Excel atau Google Sheets, dan perangkat lunak statistik seperti SPSS atau R (sesuaikan dengan yang tersedia di kampus).
+
+Bab 4. Jadwal dan Rencana Anggaran
+
+4.1 Jadwal Penelitian (perkiraan)
+
+Kegiatan
+Persiapan lokasi, media, dan rain shelter Pemasangan irigasi dan sensor, kalibrasi Uji pendahuluan Penanaman dan pemeliharaan Pengamatan dan monitoring Panen Analisis data dan penulisan laporan
+
+Minggu 12
+X
+
+Minggu 34
+
+Minggu 56
+
+Minggu 78
+
+Minggu 910
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+4.2 Rencana Anggaran (perkiraan kasar, perlu disesuaikan dengan harga terbaru)
+
+Komponen Sistem irigasi tetes (tandon, selang, emitter, filter, kran) Rain shelter (rangka dan plastik UV) Polybag, tanah, kompos, sekam bakar Benih dan perawatan Sensor dan ESP32 (6 titik, SD card, RTC, casing)
+
+Perkiraan Biaya Rp 500.000 - 1.500.000
+Rp 500.000 - 1.500.000 Rp 300.000 - 600.000 Rp 100.000 - 300.000 Rp 300.000 - 600.000
+
+Page 7 of 8
+
+Respon Arugula terhadap Media Tanam dan Interval Irigasi Tetes di Licin, Banyuwangi
+
+Komponen Alat ukur (timbangan, soil moisture meter, gelas ukur) Transportasi dan lain-lain Total perkiraan
+
+Perkiraan Biaya Rp 200.000 - 500.000
+Rp 200.000 - 500.000 Rp 2.100.000 - 5.500.000
+
+Angka di atas hanya perkiraan awal. Banyak komponen bisa dipinjam dari kampus, laboratorium, atau petani sekitar.
+
+Daftar Pustaka
+Diisi dari jurnal dan buku yang benar-benar dibaca. Gunakan format sitasi yang diminta kampus. Draft ini sengaja tidak memuat referensi agar tidak ada sitasi yang tidak bisa diverifikasi.
+
+Catatan untuk Penulis (hapus sebelum dikumpulkan)
+Konfirmasi ke pembimbing: ukuran polybag, jumlah tanaman per polybag, volume air per penyiraman, dan apakah memakai RAL atau RAK. Pastikan ada calon pembeli arugula (kafe, hotel, supermarket) agar manfaat bisnisnya kuat. Cek ketersediaan benih dan varietas arugula. Jangan lewati uji pendahuluan interval 3 hari. Bagian IT cukup jadi pendukung. Jika waktu mepet, Level 1 (Google Form dan soil moisture meter) tetap cukup untuk menjalankan penelitian. Kalau dosen menganggap 18 unit terlalu banyak atau terlalu sedikit, desain bisa disesuaikan, misalnya dikurangi menjadi satu faktor.
+
+Page 8 of 8
+
+
